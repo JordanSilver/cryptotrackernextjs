@@ -18,3 +18,18 @@
 .coin_input::placeholder {
   color: #e2e2e2;
 }
+
+.icon {
+  cursor: pointer;
+  margin-bottom: 2rem;
+  animation: iconspin 2s linear infinite;
+}
+
+@keyframes iconspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
