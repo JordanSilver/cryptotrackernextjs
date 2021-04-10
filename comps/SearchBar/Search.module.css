@@ -1,5 +1,5 @@
 .coin_search {
-  margin-bottom: 64px;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   width: 300px;
@@ -20,8 +20,11 @@
 }
 
 .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin: 2rem;
   animation: iconspin 2s linear infinite;
 }
 
